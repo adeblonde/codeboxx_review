@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ### prepare list of students and projects
-export STUDENTS="Amuriana+Rocket_Elevators_Foundation BenLand24+Rocket_Elevator_Foundation jorgechavarriaga+Rocket-Elevator-Foundation maguilar93+Rocket-Elevator-Foundation sebxroy+Rocket-Elevators-Foundation virtualutopia+Rocket-Elevator-Foundation"
+export STUDENTS="Amuriana+Rocket_Elevators_Foundation BenLand24+Rocket_Elevator_Foundation jorgechavarriaga+Rocket-Elevator-Foundation maguilar93+Rocket-Elevator-Foundation sebxroy+Rocket-Elevators-Foundation virtualutopia+Rocket-Elevator-Foundation FelixDallaire+Rocket-Elevator-Foundation"
 
 ### for debug purposes
 export ZENDESK_URL=https://test.com
