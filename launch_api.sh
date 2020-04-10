@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ### prepare list of students and projects
-export STUDENTS="jorgechavarriaga+RestApiRocketElevators Amuriana+Todo-List-API maguilar93+Rocket_Elevators_Restful_API_Copie sebxroy+Rocket_Elevators_Rest_Api virtualutopia+Rocket-Elevator-Foundation-RESTapi"
+export STUDENTS="jorgechavarriaga+RestApiRocketElevators Amuriana+RESTApi maguilar93+Rocket_Elevators_Restful_API_Copie sebxroy+Rocket_Elevators_Rest_Api virtualutopia+Rocket-Elevator-Foundation-RESTapi"
 
 ### check if running
 cd students_api
