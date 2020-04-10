@@ -1,0 +1,28 @@
+version: '2'
+services:
+  dwh:
+    image: postgres
+    volumes:
+      - ./tmp/db:/var/lib/postgresql/data
+    environment:
+      POSTGRESQL_PASSWORD: postgres_password
+      POSTGRESQL_USER: APP_NAME
+      POSTGRESQL_DB: postgres_db
+    ports:
+      - 5432:5432
+  db:
+    image: mysql
+    ports:
+      - "3306:3306"
+      - "3306"
+    volumes:
+      - db_data:/var/lib/mysql
+      - .:/APP_NAME
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: mysql_db
+      MYSQL_USER: APP_NAME
+      MYSQL_PASSWORD: mysql_password
+
+volumes:
+  db_data:
